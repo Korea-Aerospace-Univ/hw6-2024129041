@@ -15,7 +15,7 @@ int main(void)
     }
     q=arr2+N-1;
     for(p=arr1;p<arr1+N;p++){//forfor?
-        printf("%d ", *p+*q);
+        printf(" %d", *p+*q);
         q--;
     }
     return 0;
